@@ -2,6 +2,13 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+@media screen and (max-width: 600px) {
+    .main-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
 .first-side{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
