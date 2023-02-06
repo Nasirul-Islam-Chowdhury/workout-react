@@ -1,0 +1,43 @@
+.player-container img{
+    width: 230px;
+    height: 130px;
+    border-radius: 10px;
+}
+.player-container{
+    width: 260px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.player-time, .player-age{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.player-instrument, .player-description{
+    margin: 10px 0px;
+}
+.btn-add{
+    width: 100%;
+    padding: 12px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    background-color: rgb(111, 111, 248);
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+.card-text{
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.btn-add:hover{
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+}

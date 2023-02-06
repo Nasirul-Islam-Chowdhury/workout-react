@@ -1,0 +1,125 @@
+.counting-side {
+    background-color: white;
+}
+.profile-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(241, 237, 237);
+    margin: 0px 20px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.quality{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.profile-second h3{
+    margin: 0;
+}
+.profile-second p{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    color: rgb(121, 128, 134);
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.tikana{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.logo{
+    margin: 0;
+}
+.name{
+    margin: 0;
+}
+.profile{
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.spe-text{
+    color: rgb(121, 128, 134);
+    font-weight: 500;
+    font-size: 15px;
+}
+.header-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.break-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    padding: 5px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(241, 237, 237);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.time-text{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.time-text:hover{
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+}
+.Exercise-details{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.time-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 237, 237);
+}
+.time-header{
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-activity{
+    width: 80%;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(83, 83, 236);
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.btn-activity:hover{
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+}
+#break-time, #second{
+    font-size: 18px;
+    color: rgb(83, 83, 236);
+}

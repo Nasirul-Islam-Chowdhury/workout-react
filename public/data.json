@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://www.ihrsa.org/uploads/Articles/Column-Width/industry-news_muscular-bicep-dumbbell-stock_column.jpg",
+        "instrument": "Dumble",
+        "age": "20-24",
+        "time": "100",
+        "description": "obscure Latin words, consectetur, from a Lorem Ipsum"
+    },
+    {
+        "id": 2,
+        "img": "https://righteouslyfitdads.com/wp-content/uploads/2022/12/workout-bench-alternatives-900-%C3%97-750-px-min.png",
+        "instrument": "Hand Grip",
+        "age": "20-24",
+        "time": "120",
+        "description": "obscure Latin words, consectetur, from a Lorem Ipsum"
+    },
+    {
+        "id": 3,
+        "img": "https://cdn.webshopapp.com/shops/281654/files/400493892/image.jpg",
+        "instrument": "Workout Bench",
+        "age": "20-24",
+        "time": "130",
+        "description": "obscure Latin words, consectetur, from a Lorem Ipsum"
+    },
+    {
+        "id":4,
+         "img": "https://assets.gqindia.com/photos/5e54b97ee1cde5000859f2d6/3:2/w_1620,h_1080,c_limit/This%20is%20how%20you%20should%20actually%20bench-press.jpg",
+        "instrument": "Marcy 150-lb",
+        "age": "20-24",
+        "time": "140",
+        "description": "obscure Latin words, consectetur, from a Lorem Ipsum"
+    },
+    {
+        "id":5,
+         "img": "https://fitatmidlife.com/wp-content/uploads/rep_ab-5200_model-bench-5-1024x1024.jpg",
+        "instrument": "Marcy Multifunction",
+        "age": "20-24",
+        "time": "150",
+        "description": "obscure Latin words, consectetur, from a Lorem Ipsum"
+    },
+    {
+        "id":6,
+        "img": "https://m.media-amazon.com/images/I/619IFZ6kHsL._AC_SX569_.jpg",
+        "instrument": "Bluefin Fitness",
+        "age": "20-24",
+        "time": "160",
+        "description": "obscure Latin words, consectetur, from a Lorem Ipsum"
+    }
+]
