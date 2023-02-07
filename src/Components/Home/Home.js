@@ -19,13 +19,15 @@ const Home = () => {
                         <h2 className='header-logo'>
                             <p className='new-test'><CiDumbbell size="50px" id='logo-icon' />
                             </p>Workout Countdown</h2>
-                        <p>Select today’s exercise</p>
+                        <p className='head-text'>Select today’s exercise</p>
                     </div>
-                    <div className='first-side'>
+                   <div className='first-side-container'>
+                   <div className='first-side'>
                         {
                             activities.map(pro => <Card key={pro.id} pro={pro}></Card>)
                         }
                     </div>
+                   </div>
                 </div>
 
                 <div className='second-side'>

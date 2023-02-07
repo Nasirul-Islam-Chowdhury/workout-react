@@ -2,13 +2,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
-@media screen and (max-width: 600px) {
-    .main-container{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 
-}
 .first-side{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -32,4 +26,30 @@
 .header-text{
     margin-left: 10px;
 }
-
+@media screen and (max-width: 600px) {
+    .main-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .first-side{
+        grid-template-columns: repeat(1, 1fr); 
+        width: min-content;   
+        
+    }
+    .card-container{
+        background-color: rgb(234, 236, 236);
+        padding: 5px 8px;
+    }
+    .first-side-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo{
+        margin: 0;
+        font-size: 18px;
+    }
+    .head-text{
+        padding-left: 20px;
+    }
+}
