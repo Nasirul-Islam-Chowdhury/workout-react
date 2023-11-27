@@ -45,12 +45,10 @@ const Count = () => {
       <p className="break-text">Add A Break</p>
       <div className="time">
         <button className="time-text" onClick={(e) => breaks(e.target.innerText)}>
-          
-            <span>10</span>s
+            10s
         </button>
         <button className="time-text" onClick={(e) => breaks(e.target.innerText)}>
-          
-            <span>20</span>s
+            20s
         </button>
         <button className="time-text" onClick={(e) => breaks(e.target.innerText)}>
           
