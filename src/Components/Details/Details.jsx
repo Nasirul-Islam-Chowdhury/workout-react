@@ -11,7 +11,5 @@ const detail = (time, btnId) => {
             button.style.backgroundColor = "rgb(0, 255, 170" 
         }
     }
-    
-
 }
 export {detail};

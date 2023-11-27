@@ -77,9 +77,7 @@ const Count = () => {
         </div>
       </div>
       <button
-        onClick={() => Swal.fire("Activity Completed")}
-        className="btn-activity"
-      >
+        onClick={() => Swal.fire("Activity Completed")} className="btn-activity">
         Activity Completed
       </button>
     </div>

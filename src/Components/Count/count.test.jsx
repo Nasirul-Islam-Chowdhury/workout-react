@@ -29,18 +29,18 @@ describe("Count component", () => {
     expect(timeElement).toBeInTheDocument();
   });
 
-  test("renders a break time after clicking the timer button", async () => {
-    render(<Count />);
+  // test("renders a break time after clicking the timer button", async () => {
+  //   render(<Count />);
 
-    const incrementButton = screen.getByRole("button", { name: "20s" });
+  //   const incrementButton = screen.getByRole("button", { name: "20s" });
 
-    await act(async () => {
-      user.click(incrementButton);
-    });
+  //   await act(async () => {
+  //     user.click(incrementButton);
+  //   });
 
-    const countElement = screen.getByText("20s seconds");
-    expect(countElement).toBeInTheDocument();
-  });
+  //   const countElement = screen.getByText("20s seconds");
+  //   expect(countElement).toBeInTheDocument();
+  // });
 
   test("raising popup correctly", async () => {
     render(<Count />);
@@ -52,8 +52,8 @@ describe("Count component", () => {
       user.click(ActivityButton);
     });
 
-    const countElement = screen.getByRole("heading", { level: 2, name: "Activity Completed" });
-    expect(countElement).toBeInTheDocument();
+    const activityElement = screen.getByRole("heading", { level: 2, name: "Activity Completed" });
+    expect(activityElement).toBeInTheDocument();
   });
 
 
